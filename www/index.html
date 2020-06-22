@@ -26,41 +26,10 @@
 </head>
 <body>
   <div id="app">
-    <!-- Status bar overlay for fullscreen mode-->
-    <div class="statusbar"></div>
-    <!-- Left panel with cover effect-->
-    <div class="panel panel-left panel-cover theme-dark">
-      <div class="view">
-        <div class="page">
-          <div class="navbar">
-            <div class="navbar-inner">
-              <div class="title">Left Panel</div>
-            </div>
-          </div>
-          <div class="page-content">
-            <div class="block">Left panel content goes here</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Right panel with reveal effect-->
-    <div class="panel panel-right panel-reveal theme-dark">
-      <div class="view">
-        <div class="page">
-          <div class="navbar">
-            <div class="navbar-inner">
-              <div class="title">Right Panel</div>
-            </div>
-          </div>
-          <div class="page-content">
-            <div class="block">Right panel content goes here</div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- Views/Tabs container -->
     <div class="views tabs ios-edges">
+
       <!-- Tabbar for switching views-tabs -->
       <div class="toolbar tabbar-labels toolbar-bottom-md">
         <div class="toolbar-inner">
@@ -70,11 +39,11 @@
             <i class="icon material-icons md-only">home</i>
             <span class="tabbar-label">Home</span>
           </a>
-          <a href="#view-catalog" class="tab-link">
+          <a href="#view-buddyzone" class="tab-link">
             <i class="icon f7-icons ios-only">list</i>
             <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
             <i class="icon material-icons md-only">view_list</i>
-            <span class="tabbar-label">Catalog</span>
+            <span class="tabbar-label">Buddy Zone</span>
           </a>
           <a href="#view-settings" class="tab-link">
             <i class="icon f7-icons ios-only">settings</i>
@@ -84,26 +53,27 @@
           </a>
         </div>
       </div>
+
       <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
       <div id="view-home" class="view view-main tab tab-active">
         <!-- Page, data-name contains page name which can be used in page callbacks -->
         <div class="page" data-name="home">
           <!-- Top Navbar -->
+      
           <div class="navbar">
             <div class="navbar-inner">
-              <div class="left">
-                <a href="#" class="link icon-only panel-open" data-panel="left">
-                  <i class="icon f7-icons ios-only">menu</i>
-                  <i class="icon material-icons md-only">menu</i>
-                </a>
+
+              <!-- Logo In Top Navbar-->
+              <div class="left sliding">
+                <img src="image/Buddy-logo.svg" width="90px" height="90px"> 
               </div>
+      
               <div class="title sliding">Home</div>
-              <div class="right">
-                <a href="#" class="link icon-only panel-open" data-panel="right">
-                  <i class="icon f7-icons ios-only">menu</i>
-                  <i class="icon material-icons md-only">menu</i>
-                </a>
+        
+              <div class="right ">
+                <img src="image/dummy.jpg" class="image-cover"> 
               </div>
+
             </div>
           </div>
 
@@ -172,9 +142,9 @@
         </div>
       </div>
 
-      <!-- Catalog View -->
-      <div id="view-catalog" class="view tab">
-        <!-- Catalog page will be loaded here dynamically from /catalog/ route -->
+      <!-- Buddy Zone View -->
+      <div id="view-buddyzone" class="view tab">
+        <!-- Buddy Zone page will be loaded here dynamically from /buddy-zone/ route -->
       </div>
 
       <!-- Settings View -->
