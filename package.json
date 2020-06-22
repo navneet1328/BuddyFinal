@@ -25,9 +25,13 @@
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-network-information": {},
       "cordova-plugin-vibration": {}
-    }
+    },
+    "platforms": [
+      "browser"
+    ]
   },
   "dependencies": {
+    "cordova-browser": "^6.0.0",
     "node-modules": "^1.0.1"
   }
 }
