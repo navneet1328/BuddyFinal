@@ -1,4 +1,6 @@
 /* Your app styles here */
+
+
 .ios .tabbar-labels .tab-link:not(.tab-link-active) .icon-ios-fill {
   display: none;
 }
@@ -37,4 +39,48 @@
   line-height: 1.2;
   font-weight: bold;
   text-align: left;
+}
+.toolbar {
+  background: #f15a22 !important;
+}
+
+.volt-card {
+    background-image: url(../img/langara-logo.png);
+    height: 100px;
+    background-color: #f15a22;
+  }
+
+.button.button-fill{
+  background-color: #f15a22 !important;
+}
+
+.navbar {
+  height: 56px;
+  background: #ffffff !important;
+  color: #f15a22 !important;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 800;
+}
+
+.flag-icon{
+  float: right;
+  margin-right: 10px;
+}
+
+.card-content{
+  padding: 3px;
+}
+
+.profile  {
+    width: 200px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+
+.main-profile{
+    text-align: center;
+    margin-top: 5%;  
 }

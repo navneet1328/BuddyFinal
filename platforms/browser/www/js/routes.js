@@ -1,7 +1,7 @@
-routes = [
+routes = [ 
   {
-    path: '/',
-    url: './index.html',
+    path: '/home/',
+    url: './pages/home.html',
   },
   {
     path: '/about/',
@@ -16,8 +16,8 @@ routes = [
     componentUrl: './pages/product.html',
   },
   {
-    path: '/settings/',
-    url: './pages/settings.html',
+    path: '/profile/',
+    url: './pages/profile.html',
   },
   // Page Loaders & Router
   {
