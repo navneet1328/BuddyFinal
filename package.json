@@ -29,6 +29,7 @@
     "platforms": []
   },
   "dependencies": {
+    "cordova-android": "^8.1.0",
     "node-modules": "^1.0.1"
   }
 }

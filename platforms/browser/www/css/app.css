@@ -40,6 +40,56 @@
   font-weight: bold;
   text-align: left;
 }
+.logo{
+  width: 95px;
+  height: 95px;
+}
+.image-about{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 2rem 6rem;
+  margin-bottom: -3rem;
+  object-fit: contain;
+  object-position: center top;
+  padding: 2px;
+  border: 2px solid #f15a22;
+}
+.about-body{
+  margin: 0 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: .75rem;
+}
+.feedback-list li{
+  display: grid;
+  grid-template-columns: .25fr 1fr;
+  grid-gap: .5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.feedback-list ul{
+  padding: 0 1rem;
+}
+.feedback-list li img{
+  margin: 1rem auto;
+}
+.feedback{
+  margin: .5rem auto;
+}
+.happywall{
+  font-family: cursive;
+  text-align: center;
+  margin-top: 4rem;
+}
+/* Text Me button ==================================== */
+.md .button.button-outline{
+  border:1px solid #f15a22;
+}
+.md .button{
+  color: #f15a22;
+  font-weight: bold;
+}
 .toolbar {
   background: #f15a22 !important;
 }
@@ -83,4 +133,17 @@
 .main-profile{
     text-align: center;
     margin-top: 5%;  
+}
+
+.popup-open{
+  color: #000!important;
+}
+
+.thank-button{
+  background: #f15a22;
+  color: white !important;
+  width: 60%;
+  text-transform: none !important;
+  float: right;
+  margin-top: 10px;
 }
