@@ -1,0 +1,114 @@
+<template>
+    <div class="page" data-name="buddy-zone">
+        <div class="navbar">
+            <div class="navbar-inner sliding">
+                <div class="left sliding">
+                    <img src="image/Buddy-logo.svg" width="90px" height="90px">
+                </div>
+
+                <div class="title sliding">Login</div>
+
+                <div class="right ">
+                    <img src="image/dummy.jpg" class="image-cover">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card demo-card-header-pic">
+        <div class="card-header align-items-flex-end">
+            <div>
+                <!-- Tab 1 -->
+                <a href="#" class="tab-link tab-link-active" data-tab=".tab1">LOGIN</a>
+                <!-- Tab 2 -->
+                <a href="#" class="tab-link" data-tab=".tab2">REGISTER</a>
+            </div>
+        </div>
+        <div class="card-content card-content-padding">
+            <div class="tabs tabs-top">
+
+                <!-- Tab 1 Content  -->
+                <div class="tab tab1 tab-active">
+
+                    <!-- Login Form -->
+                    <form>
+                        <div class="list">
+                            <ul>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-floating-label">E-mail</div>
+                                        <div class="item-input-wrap">
+                                            <input type="email">
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-floating-label">Password</div>
+                                        <div class="item-input-wrap">
+                                            <input type="password">
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Login Button - Navigating to Home Page -->
+                        <div class="col button button-fill button-round" onclick="window.location='../Home/Home.html'">
+                            Login</div>
+
+                    </form>
+
+                </div>
+
+                <!-- Tab 1 Content  -->
+                <div class="tab tab2">
+                    <div class="block">
+
+                        <!-- Volunteer Card -->
+                        <div class="card">
+                            <div class="card-content ">
+                                <div style="height: 50%;" class="col button button-large button-raised">
+                                    <div onclick="window.location='../Login/RegisterDetail.html'">
+                                        <img style="width: 50%;" src="../img/Friends.png" alt="">
+                                        <h3>As Volunteer</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Seeker Card -->
+                        <div class="card">
+                            <div class="card-content ">
+                                <div style="height: 50%;" class="col button button-large button-raised">
+                                    <div onclick="window.location='../Login/RegisterDetail.html'">
+                                        <img style="width: 50%;" src="../img/Friends.png" alt="">
+                                        <h3>As Seeker</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+</template>
+<script>
+    return {
+        data: function () {
+            return {
+                products: this.$root.products,
+            };
+        }
+    };
+</script>
