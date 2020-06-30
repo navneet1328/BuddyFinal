@@ -254,6 +254,30 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/cordova-plugin-firebase/www/firebase-browser.js",
+        "id": "cordova-plugin-firebase.FirebasePlugin",
+        "pluginId": "cordova-plugin-firebase",
+        "clobbers": [
+            "FirebasePlugin"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
+        "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
+        "pluginId": "cordova-plugin-firebase-analytics",
+        "merges": [
+            "cordova.plugins.firebase.analytics"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-firebase-messaging/www/FirebaseMessaging.js",
+        "id": "cordova-plugin-firebase-messaging.FirebaseMessaging",
+        "pluginId": "cordova-plugin-firebase-messaging",
+        "merges": [
+            "cordova.plugins.firebase.messaging"
+        ]
+    },
+    {
         "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
         "id": "cordova-plugin-globalization.GlobalizationError",
         "pluginId": "cordova-plugin-globalization",
@@ -415,12 +439,17 @@ module.exports.metadata =
     "cordova-plugin-device": "1.1.7",
     "cordova-plugin-dialogs": "1.3.4",
     "cordova-plugin-file": "4.3.3",
+    "cordova-plugin-firebase": "2.0.5",
+    "cordova-plugin-firebase-analytics": "4.3.0",
+    "cordova-plugin-firebase-messaging": "4.4.1",
     "cordova-plugin-geolocation": "2.4.3",
     "cordova-plugin-globalization": "1.0.9",
     "cordova-plugin-inappbrowser": "1.7.2",
     "cordova-plugin-media-capture": "1.4.3",
     "cordova-plugin-network-information": "1.3.4",
-    "cordova-plugin-vibration": "2.1.6"
+    "cordova-plugin-vibration": "2.1.6",
+    "cordova-support-android-plugin": "1.0.2",
+    "cordova-support-google-services": "1.4.1"
 }
 // BOTTOM OF METADATA
 });

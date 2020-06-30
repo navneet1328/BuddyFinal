@@ -4,6 +4,14 @@ routes = [
     url: './pages/home.html',
   },
   {
+    path: '/signin/',
+    url: './pages/sign-in.html',
+  },
+  {
+    path: '/signup/',
+    url: './pages/sign-up-detail.html',
+  },
+  {
     path: '/about/',
     url: './pages/about.html',
   },

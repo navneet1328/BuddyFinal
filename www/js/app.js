@@ -1,6 +1,7 @@
 // Dom7
 var $$ = Dom7;
 
+
 // Framework7 App main instance
 var app  = new Framework7({
   root: '#app', // App root element
@@ -17,6 +18,7 @@ var app  = new Framework7({
 
     };
   },
+
   // App root methods
   methods: {
     helloWorld: function () {
@@ -40,13 +42,20 @@ var settingsView = app.views.create('#view-profile', {
 
 
 // Login Screen Demo
-$$('#my-login-screen .login-button').on('click', function () {
-  var username = $$('#my-login-screen [name="username"]').val();
-  var password = $$('#my-login-screen [name="password"]').val();
+// $$('#my-login-screen .login-button').on('click', function () {
+//   var username = $$('#my-login-screen [name="username"]').val();
+//   var password = $$('#my-login-screen [name="password"]').val();
 
-  // Close login screen
-  app.loginScreen.close('#my-login-screen');
+//   app.loginScreen.close('#my-login-screen');
 
-  // Alert username and password
-  app.dialog.alert('Username: ' + username + '<br>Password: ' + password);
-});
+//   app.dialog.alert('Username: ' + username + '<br>Password: ' + password);
+// });
+
+
+
+
+
+
+
+
+
