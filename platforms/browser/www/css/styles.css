@@ -1,0 +1,83 @@
+/* typography */
+* {
+    font-family: 'ubuntu', sans-serif;  
+}
+.card-content div {
+    font-weight: 500;
+    /* if a class was added to this <div> please change .card-content div to .card-content class name */
+} 
+.title.sliding {
+    font-family: ubuntu;
+    font-weight: 700;
+}
+span.tabbar-label {
+    font-size: 10px;
+} /* font size for icons in footer */
+
+h7 {
+    font-family: 'belleza', serif;
+    font-size: 11px;
+}
+
+p {
+    font-family: 'belleza', serif;
+    line-height: 1.25;
+}
+.flag-icon {
+    margin-right: 2px;
+}
+
+.item-title-row {
+    font-size: 15px;
+}
+.item-text {
+    font-family: 'belleza', serif;
+    line-height: 1.25 !important;
+}
+
+/* search */
+.md .page>.searchbar {
+    z-index: 0;
+}
+.md .page>.searchbar input[type=text] {
+    padding-left: 40px;
+    font-size: 15px;
+}
+.md .page>.navbar~.searchbar {
+    top: 48px;
+}
+.md .page>.searchbar:after {
+    top: 55px;
+}
+.searchbar {
+    margin: auto;
+    padding: 10px; 
+}
+.searchbar input {
+    box-sizing: border-box;
+    clear: both;
+    text-align: left;
+    line-height: 1;
+    font-size: 10px;
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none; 
+}
+.searchbar i {
+    position: absolute;
+    color: #ccc;
+}
+.searchbar-input-wrap {
+    position: relative;
+}
+/* end of search button */
+
+
+
+
+/* Login and Signup Page */
+
+.button-round{
+    background-color: #f15a22;
+    color: white;
+}

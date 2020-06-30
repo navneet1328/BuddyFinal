@@ -1,0 +1,146 @@
+<template>
+    <div class="page" data-name="buddy-zone">
+        <div class="navbar">
+            <div class="navbar-inner sliding">
+                <div class="left sliding">
+                    <img src="image/Buddy-logo.svg" width="90px" height="90px">
+                </div>
+
+                <div class="title sliding">SignUp</div>
+
+                <div class="right ">
+                    <img src="image/dummy.jpg" class="image-cover">
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Register Form -->
+<div class="page">
+    <div class="page no-navbar no-toolbar no-swipeback login-screen-page">
+        <div class="page-content login-screen-content">
+            <div class="login-screen-title">Buddy</div>
+            <form class="list" id="my-form" >
+                <ul>
+                    <li>
+                        <div class="item-content item-input">
+                            <div class="item-inner">
+                                <!-- <div class="item-title item-label">Name</div> -->
+                                <div class="item-input-wrap">
+                                    <input type="text" name="name" placeholder="Your name" id="name" required>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content item-input">
+                            <div class="item-inner">
+                                <!-- <div class="item-title item-label">E-mail</div> -->
+                                <div class="item-input-wrap">
+                                    <input type="email" name="email" placeholder="E-mail" id="email" required>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content item-input">
+                            <div class="item-inner">
+                                <!-- <div class="item-title item-label">E-mail</div> -->
+                                <div class="item-input-wrap">
+                                    <input type="password" name="pwd" placeholder="Password" id="pwd" required>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content item-input">
+                            <div class="item-inner">
+                                <!-- <div class="item-title item-label">E-mail</div> -->
+                                <div class="item-input-wrap">
+                                    <input type="password" name="rptpwd" placeholder="Re-enter Password" id="rptpwd" required>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- <li>
+                        <div class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label">Gender</div>
+                                <div class="item-input-wrap">
+                                    <select name="gender">
+                                        <option value="male" selected>Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+            </form>
+            <div class="block block-strong row">
+                <div class="col">
+
+                    <!-- Navigate to Register Page -->
+                    <div
+                        class="col button button-fill button-round" onclick="window.location='../Home/Home.html'">SignUp
+                    </div>
+                 </div>
+            </div>
+</div>
+
+
+
+
+                <!-- Tab 1 Content  -->
+                <div class="tab tab2">
+                    <div class="block">
+
+                        <!-- Volunteer Card -->
+                        <div class="card">
+                            <div class="card-content ">
+                                <div style="height: 50%;" class="col button button-large button-raised">
+                                    <div onclick="window.location='../Login/RegisterDetail.html'">
+                                        <img style="width: 50%;" src="../img/Friends.png" alt="">
+                                        <h3>As Volunteer</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Seeker Card -->
+                        <div class="card">
+                            <div class="card-content ">
+                                <div style="height: 50%;" class="col button button-large button-raised">
+                                    <div onclick="window.location='../Login/RegisterDetail.html'">
+                                        <img style="width: 50%;" src="../img/Friends.png" alt="">
+                                        <h3>As Seeker</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+</template>
+<!-- Script for Framework 7 -->
+<script type="text/javascript" src="../lib/framework7/js/framework7.min.js"></script>
+<script type="text/javascript" src="../js/my-app.js"></script>
+<script type="text/javascript" src="registration.js"></script>
+<script>
+    return {
+        data: function () {
+            return {
+                products: this.$root.products,
+            };
+        }
+    };
+</script>
